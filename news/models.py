@@ -8,4 +8,4 @@ class News (models.Model):
     date=models.DateField()
     
     def __str__(self):
-        return self.headline
+        return (self.headline)
