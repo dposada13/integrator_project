@@ -4,7 +4,7 @@ from django.db import models
 
 class Movie (models.Model):
     title=models.CharField(max_length=100)
-    description =models.CharField(max_length=250)
+    description =models.CharField(max_length=250, null = True)
     image=models.ImageField(upload_to='movie/images/')
     url=models.URLField(blank=True)
     genere = models.CharField(blank =True, max_length=250)

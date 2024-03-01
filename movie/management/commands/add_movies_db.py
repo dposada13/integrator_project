@@ -21,5 +21,8 @@ class Command (BaseCommand):
                 Movie.objects.create (title =movie['title'],
                                       image = 'movie/images/default.jpg',
                                       genere = movie['genre'],
-                                      year = movie ['year'])
+                                      year = movie ['year'],
+                                      description = movie ['plot'])
+                
+                
                 
