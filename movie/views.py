@@ -85,7 +85,6 @@ def statistics_view(request):
     # Crear la gráfica de barras 
     ax=plt.subplot()
     ax.stem(bar_positions,movie_counts_by_genere.values(),linefmt = 'k--')
-    #plt.bar(bar_positions, movie_counts_by_genere.values(), width=bar_width, align='center')
     
     # Personalizar la gráfica 
     plt.title('Movies per Genre') 
