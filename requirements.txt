@@ -2,3 +2,4 @@ django
 Pillow
 pandas
 matplotlib
+openai
