@@ -1,3 +1,7 @@
+#pip install -r requirements.txt
+#Ejecutar script python "Nombre del archivo.py"
+#Ejecutar Comando python manage.py "nombre del archivo"
+
 django
 Pillow
 pandas
